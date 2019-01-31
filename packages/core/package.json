@@ -1,0 +1,32 @@
+{
+  "name": "@lineage/core",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "jest --colors --coverage",
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "apollo-client": "2.4.12",
+    "graphql": "14.1.1",
+    "graphql-tag": "2.10.1",
+    "react": "16.7.0",
+    "react-apollo": "2.4.1",
+    "react-dom": "16.7.0"
+  },
+  "peerDependencies": {
+    "apollo-client": "2.4.12",
+    "graphql": "14.1.1",
+    "graphql-tag": "2.10.1",
+    "react": "16.7.0",
+    "react-apollo": "2.4.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.3.1"
+  }
+}
