@@ -15,7 +15,7 @@ jiraIssue({
 });
 
 const path = require("path");
-const tslint = require("danger-plugin-tslint");
+const tslint = require("danger-plugin-tslint").default;
 
 // Handle TSLint results in `reports/lint-results.json` and leave a Danger comment on the PR
 tslint({
