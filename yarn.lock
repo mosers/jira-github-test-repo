@@ -154,6 +154,11 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
+danger-plugin-jira-issue@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/danger-plugin-jira-issue/-/danger-plugin-jira-issue-1.4.1.tgz#1e2317ae8a291d96dc19762a55cb905681320940"
+  integrity sha512-B/XaW8YigUboK4BH4sMM8GmE0e+Bc6ibAg+Xyf0HFGph4DIawNYOuwKbCh2K1fAyXafott6tGpxFMe9Tc0Aabw==
+
 danger@^7.0.4:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/danger/-/danger-7.0.4.tgz#e7d3aa5fee30babeddb8f32f13a3d61a5b4e38d2"
