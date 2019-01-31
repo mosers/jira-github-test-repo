@@ -12,5 +12,5 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
-      name: Danger
-      command: yarn danger ci
+          name: Danger
+          command: yarn danger ci
