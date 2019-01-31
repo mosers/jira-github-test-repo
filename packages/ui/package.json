@@ -1,0 +1,28 @@
+{
+  "name": "@lineage/ui",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "jest --colors --coverage",
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "16.7.0",
+    "react-art": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-native": "0.57.8",
+    "react-native-web": "0.10.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.7.0",
+    "react-art": ">=16.7.0",
+    "react-dom": ">=16.7.0",
+    "react-native": ">=0.57.8",
+    "react-native-web": ">=0.10.0"
+  }
+}

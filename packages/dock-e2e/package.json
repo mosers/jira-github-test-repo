@@ -1,0 +1,21 @@
+{
+  "name": "@lineage/dock-e2e",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "npm run build && cucumber-js --format summary --exit dist/",
+    "build": "rm -rf ./dist && tsc && rsync -a --exclude='*.ts' src/ ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lineage/dock": "^0.1.0",
+    "@lineage/dock-api": "^0.1.0",
+    "cucumber": "5.1.0",
+    "puppeteer": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/cucumber": "4.0.4",
+    "@types/puppeteer": "1.11.2"
+  }
+}

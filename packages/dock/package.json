@@ -1,0 +1,49 @@
+{
+  "name": "@lineage/dock",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run build:server && react-scripts build",
+    "build:server": "tsc --p tsconfig.server.json",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest --colors --coverage",
+    "watch": "jest --watch"
+  },
+  "dependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/runtime": "7.3.1",
+    "@lineage/core": "^0.1.0",
+    "@lineage/ui": "^0.1.0",
+    "apollo-cache-inmemory": "1.4.2",
+    "apollo-client": "2.4.12",
+    "apollo-link-rest": "0.7.0",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "express-http-proxy": "1.5.1",
+    "graphql": "14.1.1",
+    "graphql-anywhere": "4.1.27",
+    "graphql-tag": "2.10.1",
+    "http-shutdown": "1.2.0",
+    "qs": "6.6.0",
+    "react": "16.7.0",
+    "react-apollo": "2.4.1",
+    "react-dom": "16.7.0",
+    "react-native": "0.57.8",
+    "react-native-web": "0.10.0-alpha.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "get-dev-paths": "0.1.1",
+    "react-art": "16.7.0",
+    "react-test-renderer": "16.7.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:8000"
+}

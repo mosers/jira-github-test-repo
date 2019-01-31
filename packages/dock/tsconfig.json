@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.settings.json",
+  "compilerOptions": {
+    "target": "es2015",
+    "jsx": "preserve",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
