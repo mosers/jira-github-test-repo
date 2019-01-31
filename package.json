@@ -1,0 +1,10 @@
+{
+  "name": "jira-github-test-repo",
+  "version": "1.0.0",
+  "description": "yo dog",
+  "main": "index.js",
+  "repository": "https://github.com/mosers/jira-github-test-repo.git",
+  "author": "Steve Moser <contact@stevemoser.org>",
+  "license": "MIT",
+  "private": false
+}
